@@ -27,3 +27,6 @@ Route::get('/contacto', function(){
     ->with('fondo',$color)
     ->with('valores',$valores);
 });
+Route::get('/practicaVistas', function(){
+    return view('PracticaVistas');
+});
