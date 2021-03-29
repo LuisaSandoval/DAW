@@ -11,4 +11,8 @@ Route::get('/contacto', function(){
     return view('contacto')->with('nombre',$contacto)
     ->with('fondo',$color)
     ->with('valores',$valores);
+    
+});
+Route::get('/PracticaVistas', function(){
+    return view('PracticaVistas');
 });
